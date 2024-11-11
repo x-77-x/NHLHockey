@@ -25,5 +25,6 @@ Root/
 
 ## Building
 
-1. Run the build.bat file from the command prompt or terminal
+1. Run the build.bat file from the command prompt or terminal.
 2. Find the output of the build in the `output` directory.
+2. Assembler will generate the .bin (Game), .lst (Debug), .map (Symbols), .log(Build Log)
