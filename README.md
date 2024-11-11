@@ -18,7 +18,7 @@ Root/
 │   ├── graphics/           # Graphic assets
 │   ├── macros/             # Assembly macros
 │   ├── sega/               # Sega-specific code
-│   └── sound/              # Sound assets
+│   ├── sound/              # Sound assets
 │   └── *.asm               # Assembly files
 ├── build.bat             # Batch File for Invoking Assembler to Compile Source Code
 ```
@@ -26,5 +26,11 @@ Root/
 ## Building
 
 1. Run the build.bat file from the command prompt or terminal.
-2. Find the output of the build in the `output` directory.
-2. Assembler will generate the .bin (Game), .lst (Debug), .map (Symbols), .log(Build Log)
+2. Batch file should generate the following files in the `output` folder:
+```
+    output/
+    ├── Build.log             # Log file containing any errors during compilation.
+    ├── nhl92.bin             # ROM file if the build was successful without errors.
+    ├── nhl92.lst             # Debug information generated during the build.
+    └── nhl92.map             # Symbol file used for debugging.
+```
