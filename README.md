@@ -11,14 +11,15 @@ This project contains tools for compiling NHL Hockey for the Sega Genesis using 
 
 ```
 Root/
-├── assembler/            # Assembler
+├── assembler/            # Assembler (Windows Only)
 ├── output/               # Build output
 ├── src/                  # Source assembly files and assets
-│   ├── _docs/            # Documentation files
-│   ├── graphics/         # Graphic assets
-│   ├── macros/           # Assembly macros
-│   ├── sega/             # Sega-specific code
-│   └── sound/            # Sound assets and code
+│   ├── _docs/              # Documentation files
+│   ├── graphics/           # Graphic assets
+│   ├── macros/             # Assembly macros
+│   ├── sega/               # Sega-specific code
+│   └── sound/              # Sound assets
+│   └── *.asm               # Assembly files
 ├── build.bat             # Batch File for Invoking Assembler to Compile Source Code
 ```
 
@@ -26,4 +27,3 @@ Root/
 
 1. Run the build.bat file from the command prompt or terminal
 2. Find the output of the build in the `output` directory.
-3. Enjoy
