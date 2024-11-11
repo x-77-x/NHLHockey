@@ -1,0 +1,12 @@
+# Build outputs
+output/*.*
+
+# IDE
+*.swp
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating System
+.DS_Store
+Thumbs.db
