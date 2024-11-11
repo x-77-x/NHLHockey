@@ -1,12 +1,11 @@
-# NHL Hockey AKA: NHL 92 Project Setup
+# NHL Hockey (also known as NHL 92'): Project Setup
 
-This project contains tools for compiling NHL Hockey AKA: NHL 92 Sega Genesis code using ASM68K compiler.
+This project contains tools for compiling NHL Hockey for the Sega Genesis using ASM68K compiler.
 
 ## Initial Setup
 
 1. Clone/extract this repository
-2. In VSCode Terminal:
-   - Run the Build.bat file
+2. Open in VSCode or editor of choice
 
 ## Project Structure
 
@@ -20,8 +19,7 @@ Root/
 │   ├── macros/           # Assembly macros
 │   ├── sega/             # Sega-specific code
 │   └── sound/            # Sound assets and code
-├── build.bat             # Batch file to call assembler that builds source code
-
+├── build.bat             # Batch File for Invoking Assembler to Compile Source Code
 ```
 
 ## Building
